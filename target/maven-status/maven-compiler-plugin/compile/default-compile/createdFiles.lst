@@ -1,0 +1,8 @@
+com\workpulse\resources\ExtentReporterNG.class
+com\workpulse\pageObjects\LandingPage.class
+com\workpulse\pageObjects\CheckoutPage.class
+com\workpulse\pageObjects\OrderPage.class
+com\workpulse\pageObjects\CartPage.class
+com\workpulse\pageObjects\ConfirmationPage.class
+com\workpulse\pageObjects\ProductCatalogue.class
+com\workpulse\abstractComponents\AbstractComponent.class

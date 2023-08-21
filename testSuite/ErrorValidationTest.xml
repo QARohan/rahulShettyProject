@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite  name="Suite">
+
+
+
+<groups>
+<run>
+
+     <include name = "ErrorHandling">
+     </include>
+
+</run>
+</groups>
+
+<listeners>
+    <!-- Fully qualified names of the listener classes -->
+    <listener class-name="E2E.TestComponents.Listeners" />
+    <!-- Add more listeners as needed -->
+  </listeners>
+  <test thread-count="5" name="Submit the Order">
+    <classes>	
+      
+      <class name="com.workpulse.test.StandAloneTest2"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Validate the Error Handeling">
+    <classes>	
+      <class name="com.workpulse.test.ErrorValidationTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

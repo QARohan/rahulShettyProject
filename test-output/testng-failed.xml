@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="E2E.TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Validate the Error Handeling(failed)">
+    <classes>
+      <class name="com.workpulse.test.ErrorValidationTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="loginErrorValidation"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.workpulse.test.ErrorValidationTest -->
+    </classes>
+  </test> <!-- Validate the Error Handeling(failed) -->
+</suite> <!-- Failed suite [Suite] -->
